@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,600&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: yellow;
+    height: 100vh;
+    font-family: "Nunito Sans" , sans-serif;
+}
+
+.containers{
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    /*transform: translate(50%,50%); */
+    min-height: 100px;
+    min-width: 300px;
+    background: whitesmoke;
+    width: 40%;
+    height: 45px;
+    border-radius: 5px;
+    
+}
+
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: rgba(89, 149, 202, 0.753);
+    caret-color: rgb(247, 140, 8);
+    font-weight: 400;
+    position: relative;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid rgb(140, 17, 89);
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: yellow;
+    transition: ease-in-out 0.3s;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #0b5bb6;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+#newtask button:hover{
+    opacity: 1;
+    transition: ease-in-out 0.3;
+    
+}
+
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #f5f5f5;
+    padding: 6px 20px;
+  }
+  
+  .task {
+    border-radius: 5px;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+  
+    display: flex;
+    /* x axis behaviour  */
+    justify-content: space-between;
+    /* y axis behaviour  */
+    align-items: center;
+  }
+  
+  /* #taskname{ */
+  .task span {
+    font-family: "Rock Salt", cursive;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .task button {
+    /* background-color: #0bccee; */
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+  }
+  
+  .task button :hover {
+    background-color: #ec0d62;
+    transition: ease-in-out 0.1s;
+  }
+
